@@ -1,0 +1,88 @@
+#my_profile #para{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.profile{
+    display: flex;
+    justify-content:space-around;
+}
+
+#avatar{
+    display: flex;
+}
+.profile img{
+    height: 80px;
+    margin: 5px;
+}
+
+/* INTERSTED PROPERTIES */
+#interested_property{
+    margin-top: 102px;
+}
+#interested_property h2{
+    text-align:center;
+}
+#property_list{
+    /* border: 2px solid black; */
+    display: flex;
+}
+#property_list2{
+    /* border: 2px solid black; */
+    display: flex;
+}
+#property_list3{
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.checked {
+    color: orange;
+  }
+
+.interestStar{
+    display: flex;
+    justify-content:space-between;
+}
+.star-container{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.detail-container{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.property-name{
+    font-weight: bold;
+}
+.property-gender img{
+    height: 80px;
+}
+.rateBtn{
+    display: flex;
+    justify-content:space-between;
+}
+.rateBtn .rent{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rateBtn .rent-unit{
+    margin-left: 20px;
+}
+
+@media (max-width:812px){
+    #property_list{
+        flex-wrap: wrap;
+    }
+    #property_list2{
+        flex-wrap: wrap;
+    }
+    #property_list3{
+        flex-wrap: wrap;
+    } 
+    .rateBtn .button{
+        position: relative;
+        right: 39px;
+    }  
+}
